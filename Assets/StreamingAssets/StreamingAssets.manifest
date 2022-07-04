@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1609224852
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: luascripts/main.bytes.ab
+      Dependencies: {}
+    Info_1:
+      Name: ui/logo.png.ab
+      Dependencies: {}
+    Info_2:
+      Name: ui/play.jpg.ab
+      Dependencies: {}
+    Info_3:
+      Name: ui/register.jpg.ab
+      Dependencies: {}
+    Info_4:
+      Name: ui/prefab/background.prefab.ab
+      Dependencies:
+        Dependency_0: ui/play.jpg.ab

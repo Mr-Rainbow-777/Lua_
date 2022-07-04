@@ -1,0 +1,20 @@
+function OnInit()
+    print("scene oninit")
+end
+
+function OnActive()
+    print("scene show")
+end
+
+function OnInActive()
+    print("scene hide")
+end
+
+function OnQuit()
+    print("scene quit")
+end
+
+function OnEnter()
+    print("scene Enter")
+    EntityManager.Instance:ShowEntity("obj1","player","entity.playerentity");
+end

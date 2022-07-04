@@ -1,0 +1,5 @@
+Assets/BuildResources/LuaScripts/main.bytes|luascripts/main.bytes.ab
+Assets/BuildResources/UI/logo.png|ui/logo.png.ab
+Assets/BuildResources/UI/play.jpg|ui/play.jpg.ab
+Assets/BuildResources/UI/register.jpg|ui/register.jpg.ab
+Assets/BuildResources/UI/Prefab/BackGround.prefab|ui/prefab/background.prefab.ab|Assets/BuildResources/UI/play.jpg

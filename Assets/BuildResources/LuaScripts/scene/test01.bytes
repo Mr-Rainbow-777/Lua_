@@ -1,0 +1,21 @@
+function OnInit()
+    print("scene oninit")
+end
+
+function OnActive()
+    print("scene show")
+end
+
+function OnInActive()
+    print("scene hide")
+end
+
+function OnQuit()
+    print("scene quit")
+end
+
+function OnEnter()
+    print("scene Enter")
+    SceneManager.Instance:LoadScene("test2","scene.test02");
+    SceneManager.Instance:SetActive(self.sceneName);
+end

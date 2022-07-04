@@ -1,0 +1,40 @@
+UIManager=CS.UIManager;
+EntityManager=CS.EntityManager;
+SceneManager=CS.MySceneManager;
+Input=CS.UnityEngine.Input;
+KeyCode=CS.UnityEngine.KeyCode;
+Time=CS.UnityEngine.Time;
+Vector3=CS.UnityEngine.Vector3;
+
+
+local group=
+{
+   "Main",
+   "UI",
+    "Box",
+}
+
+
+local entity_group=
+{
+    "player",
+    "Effect",
+    "Model",
+}
+
+
+UIManager.Instance:AllocateGroup(group);
+EntityManager.Instance:AllocateGroup(entity_group);
+function Main()
+    print("hello main");
+    UIManager.Instance:OpenUI("TestUI","Main","ui.TestUI");
+
+    --UIManager.Instance:OpenUI("TestUI 1","UI","ui.TestUI");
+    --UIManager.Instance:OpenUI("TestUI 2","Box","ui.TestUI");
+end
+
+--Main();
+
+
+
+

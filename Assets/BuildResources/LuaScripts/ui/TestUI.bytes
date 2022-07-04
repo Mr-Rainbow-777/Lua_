@@ -1,0 +1,21 @@
+function OnInit()
+    print("lua oninit")
+end
+
+function OnOpen()
+    print("lua OnOpen")
+    SceneManager.Instance:LoadScene("test1","scene.test01");
+    print("load scene test1")
+end
+
+function Update()
+    print("lua Update")
+end
+
+function OnClose()
+    print("lua onClose")
+end
+
+function OnDestroy()
+    print("lua OnDestroy")
+end

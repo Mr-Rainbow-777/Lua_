@@ -1,0 +1,32 @@
+function OnInit()
+
+    print("lua init");
+
+end
+
+function OnShow()
+
+    print("entity show");
+    self.Transform.LocalPosition=Vector3(0,2,0)
+
+end
+
+
+function Update()
+    print("entity update")
+    if Input.GetKey(KeyCode.W) then
+        self.Transform:Translate(self.Transform.Forward*Time.deltaTime*5);
+    end
+    if Input.GetKey(KeyCode.S) then
+        self.Transform:Translate(-self.Transform.Forward*Time.deltaTime*5);
+    end
+end
+
+function OnHide()
+
+    print("hide");
+end
+
+
+
+
